@@ -24,4 +24,6 @@ class Scraping():
     password.send_keys(os.environ["PASS"])
     
     login_btn = self.driver.find_element_by_name('button')
+    login_btn.click()
     
+  def send_msg()
