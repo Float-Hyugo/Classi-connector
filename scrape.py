@@ -26,4 +26,12 @@ class Scraping():
     login_btn = self.driver.find_element_by_name('button')
     login_btn.click()
     
-  def send_msg()
+  def open_msg(self):
+    msgbtn = self.driver.get_element_by_class_name("btn10")
+    msgbtn.click()
+    
+  def send_msg(self,t,c):
+    
+    
+    
+    
