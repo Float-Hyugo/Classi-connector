@@ -3,15 +3,14 @@ from selenium.webdriver.support.select import Select
 import time
 from plyer import notification
 from selenium.webdriver.chrome.options import Options
-# classi 用LINE Botの作成
+
 
 options = Options()
 options.add_argument('--headless')
 
 driver = None
 
-#memo 新規通知class ng-binding bold
-#memo 既読済みclass ng-binding
+
 
 def login():
     global driver
