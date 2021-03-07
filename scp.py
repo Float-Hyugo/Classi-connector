@@ -108,7 +108,6 @@ def has_messages():
         driver.close()
         return
 
-print(has_messages())
 
 
 
