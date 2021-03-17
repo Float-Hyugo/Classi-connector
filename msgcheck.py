@@ -50,10 +50,8 @@ class Msgcheck(commands.Cog):
             return
         teacher_name = message.channel.name
         teacher_name = teacher_name.replace('-',' ')
-        m = await ctx.send('`送信中...`')
         scp.send_msg(teacher_name,message.content)
         await message.add_reaction('👍')
-        m.delete()
         
         
     @tasks.loop(seconds=60)
